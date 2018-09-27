@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="orange" type="color">#D8863E</item>
+    <item name="pink" type="color">#B56EB6</item>
+    <item name="green" type="color">#077A74</item>
+    <item name="purple" type="color">#650B65</item>
+    <item name="white" type="color">#f9f9f9</item>
+    <item name="grey1" type="color">#F0F0F0</item>
+    <item name="orange_2" type="color">#f2d6be</item>
+
+
+
+
+    <integer-array name="androidcolors">
+        <item>@color/orange</item>
+        <item>@color/pink</item>
+        <item>@color/green</item>
+        <item>@color/purple</item>
+        <item>@color/white</item>
+    </integer-array>
+</resources>

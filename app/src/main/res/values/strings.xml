@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Horoscope</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_sign">SignActivity</string>
+    <string name="title_activity_which">WhichActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="month">Month</string>
+    <string name="day">Day</string>
+    <string name="which">Which one ?</string>
+    <string name="scheduler">Scheduler</string>
+    <string name="daily">Daily Horoscope</string>
+    <string name="monthly1">Monthly Horoscope</string>
+    <string name="weekly1">Weekly Horoscope</string>
+    <string name="dismiss">Dismiss</string>
+
+    <string name="title_activity_extended">ExtendedActivity</string>
+    <string name="title_activity_opinion">OpinionActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+    <string name="horoscope_prompt">Choose a Horoscope</string>
+
+    <string name="aquarius">Aquarius</string>
+    <string name="pisces">Pisces</string>
+    <string name="aries">Aries</string>
+    <string name="taurus">Taurus</string>
+    <string name="gemini">Gemini</string>
+    <string name="cancer">Cancer</string>
+    <string name="leo">Leo</string>
+    <string name="virgo">Virgo</string>
+    <string name="libra">Libra</string>
+    <string name="scorpion">Scorpio</string>
+    <string name="sagittarius">Sagittarius</string>
+    <string name="capricorn">Capricorn</string>
+
+    <string name="recommend">Let me recommend you this application</string>
+    <string name="choose">Choose one</string>
+    <string name="feedback">Feedback about this app:</string>
+    <string name="opinion">Opinion of App</string>
+    <string name="try_again">Your sign is being written right now. Please try again later.</string>
+    <string name="internet_connection">Please check your network connection.</string>
+    <string name="loading">Loading...please wait.</string>
+    <string name="some_time">This may take some time.</string>
+    <string name="which1">"Which one ?"</string>
+    <string name="select_time">Please select time!</string>
+    <string name="select_horoscope">Please select horoscope</string>
+    <string name="horosocope">Horosocope</string>
+    <string name="error">Please verify your internet connection.</string>
+    <string name="error_try">There was an error. Please try again later.</string>
+
+    <string name="monthly2">Monthly Horoscope</string>
+    <string name="weekly2">Weekly Horoscope</string>
+    <string name="daily2">Daily Horoscope</string>
+    <string name="app_name2">HOROSCOPE</string>
+    <string name="version">Version 1.12</string>
+
+    <string name="noInternet_body">Please verify your network settings. No internet available.</string>
+    <string name="noInternet">No Internet Connection</string>
+    <string name="ok">OK</string>
+    <string name="wrongDate">Wrong Date</string>
+    <string name="wrongDate_body">Please insert a correct date. That date does not exist.</string>
+    <string name="daily_scheduler">Daily Scheduler</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="cancel">Cancel</string>
+    <string name="send">Send</string>
+    <string name="birthday">BIRTHDAY</string>
+    <string name="rate">Rate this app!</string>
+    <string name="share">Share this app!</string>
+    <string name="feedback2">Give feedback!</string>
+    <string name="about">About</string>
+
+
+
+</resources>

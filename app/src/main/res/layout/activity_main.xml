@@ -1,0 +1,274 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@drawable/bg"
+        tools:context="com.converter.android.dailyhoroscope.MainActivity">
+
+
+        <!--First Row-->
+        <!--First Row-->
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="20dip">
+
+            <Button android:text="@string/aquarius"
+                android:background="@drawable/roundshape4_selector"
+                android:layout_width="@dimen/padding3"
+                android:layout_height="@dimen/padding3"
+                android:id="@+id/aquarius"
+                android:gravity="center"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:onClick="onClick"
+                android:drawableTop="@drawable/aquarius"
+                android:paddingTop="13dip"
+                android:paddingBottom="12dip"
+                android:layout_marginRight="6dp"
+                android:textSize="12dp"/>
+
+
+
+            <Button
+                android:text="@string/pisces"
+                android:layout_width="@dimen/padding3"
+                android:layout_height="@dimen/padding3"
+                android:background="@drawable/roundshape4_selector"
+                android:gravity="center"
+                android:id="@+id/pisces"
+                android:textStyle="bold"
+                android:onClick="onClick"
+                android:textColor="@color/pink"
+                android:textSize="@dimen/letter"
+                android:drawableTop="@drawable/pisces"
+                android:paddingTop="13dip"
+                android:paddingBottom="12dip"
+                android:layout_marginRight="6dp"
+                />
+
+            <Button
+                android:text="@string/aries"
+                android:background="@drawable/roundshape4_selector"
+                android:layout_width="@dimen/padding3"
+                android:layout_height="@dimen/padding3"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:onClick="onClick"
+                android:drawableTop="@drawable/aries"
+                android:paddingTop="13dip"
+                android:paddingBottom="12dip"
+                android:id="@+id/aries"
+                android:textColor="@color/pink"
+                android:textSize="@dimen/letter"
+                />
+
+
+        </TableRow>
+
+        <!--Second Row-->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dip">
+
+            <Button
+                android:text="@string/taurus"
+                android:background="@drawable/roundshape4_selector"
+                android:layout_width="@dimen/padding3"
+                android:layout_height="@dimen/padding3"
+                android:id="@+id/taurus"
+                android:gravity="center"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:onClick="onClick"
+                android:drawableTop="@drawable/taurus"
+                android:paddingTop="13dip"
+                android:paddingBottom="12dip"
+                android:layout_marginRight="6dp"
+                android:textSize="@dimen/letter"/>
+
+
+            <Button
+                android:text="@string/gemini"
+                android:layout_width="@dimen/padding3"
+                android:layout_height="@dimen/padding3"
+                android:background="@drawable/roundshape4_selector"
+                android:gravity="center"
+                android:id="@+id/gemini"
+                android:textStyle="bold"
+                android:onClick="onClick"
+                android:drawableTop="@drawable/gemini"
+                android:paddingTop="13dip"
+                android:paddingBottom="12dip"
+                android:layout_marginRight="6dp"
+                android:textColor="@color/pink"
+                android:textSize="@dimen/letter"/>
+
+
+
+            <Button
+                android:text="@string/cancer"
+                android:background="@drawable/roundshape4_selector"
+                android:layout_width="@dimen/padding3"
+                android:layout_height="@dimen/padding3"
+                android:gravity="center"
+                android:id="@+id/cancer"
+                android:textStyle="bold"
+                android:onClick="onClick"
+                android:drawableTop="@drawable/cancer"
+                android:paddingTop="13dip"
+                android:paddingBottom="12dip"
+                android:textColor="@color/pink"
+                android:textSize="@dimen/letter"/>
+        </TableRow>
+
+        <!--Third Row-->
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dip">
+
+            <Button
+                android:text="@string/leo"
+                android:background="@drawable/roundshape4_selector"
+                android:layout_width="@dimen/padding3"
+                android:layout_height="@dimen/padding3"
+                android:id="@+id/leo"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:onClick="onClick"
+                android:drawableTop="@drawable/leo"
+                android:paddingTop="13dip"
+                android:paddingBottom="12dip"
+                android:textColor="@color/pink"
+                android:layout_marginRight="6dp"
+                android:textSize="@dimen/letter"/>
+
+            <Button
+                android:text="@string/virgo"
+                android:layout_width="@dimen/padding3"
+                android:layout_height="@dimen/padding3"
+                android:background="@drawable/roundshape4_selector"
+                android:gravity="center"
+                android:id="@+id/virgo"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:onClick="onClick"
+                android:drawableTop="@drawable/virgo"
+                android:paddingTop="13dip"
+                android:paddingBottom="12dip"
+                android:layout_marginRight="6dp"
+                android:textSize="@dimen/letter"/>
+
+            <Button
+                android:text="@string/libra"
+                android:background="@drawable/roundshape4_selector"
+                android:layout_width="@dimen/padding3"
+                android:layout_height="@dimen/padding3"
+                android:gravity="center"
+                android:id="@+id/libra"
+                android:textStyle="bold"
+                android:onClick="onClick"
+                android:drawableTop="@drawable/libra"
+                android:paddingTop="13dip"
+                android:paddingBottom="12dip"
+                android:textColor="@color/pink"
+                android:textSize="@dimen/letter"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dip">
+
+            <Button
+                android:text="@string/scorpion"
+                android:background="@drawable/roundshape4_selector"
+                android:layout_width="@dimen/padding3"
+                android:layout_height="@dimen/padding3"
+                android:id="@+id/scorpius"
+                android:gravity="center"
+                android:textColor="@color/pink"
+                android:layout_marginRight="6dp"
+                android:textStyle="bold"
+                android:onClick="onClick"
+                android:drawableTop="@drawable/scorpion"
+                android:paddingTop="13dip"
+                android:paddingBottom="12dip"
+                android:textSize="@dimen/letter"/>
+
+            <Button
+                android:text="@string/sagittarius"
+                android:layout_width="@dimen/padding3"
+                android:layout_height="@dimen/padding3"
+                android:background="@drawable/roundshape4_selector"
+                android:gravity="center"
+                android:id="@+id/sagitarius"
+                android:textColor="@color/pink"
+                android:layout_marginRight="6dp"
+                android:textStyle="bold"
+                android:onClick="onClick"
+                android:drawableTop="@drawable/sagittarius"
+                android:paddingTop="13dip"
+                android:paddingBottom="12dip"
+                android:textSize="@dimen/letter"/>
+
+            <Button
+                android:text="@string/capricorn"
+                android:background="@drawable/roundshape4_selector"
+                android:layout_width="@dimen/padding3"
+                android:layout_height="@dimen/padding3"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:onClick="onClick"
+                android:drawableTop="@drawable/capricorn"
+                android:paddingTop="13dip"
+                android:paddingBottom="12dip"
+                android:id="@+id/capricorn"
+                android:textColor="@color/pink"
+                android:textSize="@dimen/letter"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:padding="5dip">
+
+            <Button
+                android:text="@string/which"
+                android:background="@drawable/roundshape4_selector"
+                android:layout_span="3"
+                android:layout_width="92dp"
+                android:layout_height="87dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:onClick="onClick"
+                android:id="@+id/which"
+                android:textColor="@color/pink"
+                android:textSize="12sp"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

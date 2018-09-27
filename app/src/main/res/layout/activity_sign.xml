@@ -1,0 +1,94 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="10dp"
+    >
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        tools:context="com.converter.android.dailyhoroscope.SignActivity">
+
+        <!--<TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+        <Button
+            android:text=" Yearly Horoscope"
+            android:background="@drawable/roundshape_selector"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:onClick="onClick"
+            android:layout_marginBottom="4dip"
+            android:id="@+id/yearly"
+            android:textColor="@color/green"
+            android:textSize="12dp"/>
+        </TableRow>-->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Button
+                android:text="@string/monthly2"
+                android:background="@drawable/roundshape_selector"
+                android:layout_width="@dimen/btn_wtd"
+                android:layout_height="@dimen/btn_hgt"
+                android:gravity="center"
+                android:layout_marginBottom="4dip"
+                android:textStyle="bold"
+                android:onClick="onClick"
+                android:id="@+id/monthly"
+                android:textColor="@color/green"
+                android:textSize="@dimen/letter"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Button
+                android:text="@string/weekly2"
+                android:background="@drawable/roundshape_selector"
+                android:layout_width="@dimen/btn_wtd"
+                android:layout_height="@dimen/btn_hgt"
+                android:layout_marginBottom="4dip"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:onClick="onClick"
+                android:id="@+id/weekly"
+                android:textColor="@color/green"
+                android:textSize="@dimen/letter"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Button
+                android:text="@string/daily2"
+                android:background="@drawable/roundshape_selector"
+                android:layout_width="@dimen/btn_wtd"
+                android:layout_height="@dimen/btn_hgt"
+                android:layout_marginBottom="4dip"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:onClick="onClick"
+                android:id="@+id/daily"
+                android:textColor="@color/green"
+                android:textSize="@dimen/letter"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+</ScrollView>
