@@ -4,7 +4,7 @@ import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProvider;
 
 /**
- * Created by ritadacostaferreira on 20/08/18.
+ * Created by ritacf on 20/08/18.
  */
 
 public class ViewModelProviderFactory <V> implements ViewModelProvider.Factory {

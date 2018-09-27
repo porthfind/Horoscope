@@ -9,7 +9,7 @@ import com.rdev.horoscopemvvm.vo.Horoscopo;
 import timber.log.Timber;
 
 /**
- * Created by ritadacostaferreira on 20/08/18.
+ * Created by ritacf on 20/08/18.
  */
 
 public class ExtendedViewModel extends BaseViewModel<ExtendedNavigator> {

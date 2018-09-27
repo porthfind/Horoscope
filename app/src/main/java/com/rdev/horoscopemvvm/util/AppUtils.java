@@ -10,7 +10,7 @@ import java.util.Date;
 import timber.log.Timber;
 
 /**
- * Created by ritadacostaferreira on 23/07/18.
+ * Created by ritacf on 23/07/18.
  */
 
 public class AppUtils {

@@ -3,7 +3,7 @@ package com.rdev.horoscopemvvm.vo;
 import org.simpleframework.xml.Root;
 
 /**
- * Created by ritadacostaferreira on 08/09/18.
+ * Created by ritacf on 08/09/18.
  */
 @Root(name="rss", strict=false)
 public class Rss

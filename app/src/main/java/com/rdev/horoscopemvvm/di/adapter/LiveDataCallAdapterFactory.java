@@ -12,7 +12,7 @@ import retrofit2.CallAdapter;
 import retrofit2.Retrofit;
 
 /**
- * Created by ritadacostaferreira on 20/08/18.
+ * Created by ritacf on 20/08/18.
  */
 
 public class LiveDataCallAdapterFactory extends CallAdapter.Factory{

@@ -1,7 +1,7 @@
 package com.rdev.horoscopemvvm.util;
 
 /**
- * Created by ritadacostaferreira on 20/08/18.
+ * Created by ritacf on 20/08/18.
  */
 
 public class AppConstants {
@@ -15,4 +15,6 @@ public class AppConstants {
     public static String daily = "daily";
     public static String weekly = "weekly";
     public static String monthly = "monthly";
+    public static int letter = 30;
+    public static int letter2 = 25;
 }

@@ -1,7 +1,7 @@
 package com.rdev.horoscopemvvm.vo;
 
 /**
- * Created by ritadacostaferreira on 08/09/18.
+ * Created by ritacf on 08/09/18.
  */
 
 public class Horoscopo {

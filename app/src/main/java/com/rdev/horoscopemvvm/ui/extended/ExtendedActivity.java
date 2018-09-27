@@ -64,18 +64,18 @@ public class ExtendedActivity extends BaseActivity<ActivityExtendedBinding, Exte
                 if (horoscopo.getDescription().length()>1){
 
                     mActivityStartBinding.textSign.setText(horos);
-                    mActivityStartBinding.textSign.setTextSize(30);
+                    mActivityStartBinding.textSign.setTextSize(AppConstants.letter);
                     mActivityStartBinding.textExtended.setText(horoscopo.getDescription());
                     mActivityStartBinding.textType.setText(tipo);
-                    mActivityStartBinding.textType.setTextSize(25);
+                    mActivityStartBinding.textType.setTextSize(AppConstants.letter2);
                 }
                 else
                 {
                     mActivityStartBinding.textSign.setText(horos);
-                    mActivityStartBinding.textSign.setTextSize(30);
+                    mActivityStartBinding.textSign.setTextSize(AppConstants.letter);
                     mActivityStartBinding.textExtended.setText(R.string.error_try);
                     mActivityStartBinding.textType.setText(tipo);
-                    mActivityStartBinding.textType.setTextSize(25);
+                    mActivityStartBinding.textType.setTextSize(AppConstants.letter2);
                 }
 
 

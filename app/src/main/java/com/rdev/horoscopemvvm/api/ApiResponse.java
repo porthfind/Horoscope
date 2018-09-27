@@ -17,7 +17,7 @@ import retrofit2.Response;
 import timber.log.Timber;
 
 /**
- * Created by ritadacostaferreira on 20/08/18.
+ * Created by ritacf on 20/08/18.
  */
 
 public class ApiResponse<T> {

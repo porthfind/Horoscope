@@ -9,7 +9,7 @@ import com.rdev.horoscopemvvm.ui.sign.SignActivity;
 import com.rdev.horoscopemvvm.ui.which.WhichActivity;
 
 /**
- * Created by ritadacostaferreira on 15/09/18.
+ * Created by ritacf on 15/09/18.
  */
 
 public class AppNavigation
